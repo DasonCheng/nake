@@ -1,0 +1,149 @@
+@charset "utf-8";
+.case-classify{
+    width: 100%;
+    border-top: 1px solid #DDD;
+    border-bottom: 1px solid #DDD;
+    background: #F4F4F4;
+}
+.case-classify-in{
+    padding: 20px 0;
+}
+.case-classify-in ul{
+    width: 726px;
+    height: 40px;
+    margin: 0 auto;
+    line-height: 24px;
+}
+.case-classify-in ul li{
+    float: left;
+    width: 160px;
+    height: 24px;
+    padding: 8px 0 8px 20px;
+    margin-left: -1px;
+    border: 1px solid #DDD;
+    background: #FFF;
+}
+.case-classify-in ul li:hover{
+    background: #F4F4F4;
+}
+.case-classify-in ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.case-classify-in ul li span{
+    float: left;
+    width: 24px;
+    height: 24px;
+    background: url("../images/bgimg.png") no-repeat;
+}
+.case-classify-in ul li:nth-child(1) span{
+    background-position: -2235px -229px;
+}
+.case-classify-in ul li:nth-child(2) span{
+    background-position: -2421px -229px;
+}
+.case-classify-in ul li:nth-child(3) span{
+    background-position: -2607px -229px;
+}
+.case-classify-in ul li:nth-child(4) span{
+    background-position: -2793px -229px;
+}
+.case-classify-in ul li h3{
+    float: left;
+    width: 80px;
+    height: 24px;
+    padding-left: 20px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.main .our-case{
+    width: 100%;
+    padding: 60px 0 50px;
+    background: #F8F8F8
+}
+.main .our-case-in ul{
+     width: 100%;
+ }
+.main .our-case-in ul li{
+    float: left;
+    width: 25%;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+.main .our-case-in ul li dl{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    background: #FFF;
+    transition: box-shadow 1s,
+    transform 1s;
+}
+.main .our-case-in ul li dl:hover{
+    box-shadow: 0 5px 20px 0 rgba(0,0,0,0.3);
+    transform: translate(0,-5px);
+}
+.main .our-case-in ul li dl:hover dd a p{
+    color: #DD4250;
+}
+.main .our-case-in ul li dl:hover dt span{
+    opacity: 1;
+}
+.main .our-case-in ul li dl:hover dt img{
+    opacity: 0.8;
+    transform: scale(1.1,1.1);
+}
+
+.main .our-case-in ul li dt{
+    position: relative;
+    overflow: hidden;
+}
+.main .our-case-in ul li img{
+    display: block;
+    width: 100%;
+    opacity: 1;
+    transition: opacity 0.5s,
+    transform 1s;
+}
+.main .our-case-in ul li dt span{
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -33px;
+    margin-left: -30px;
+    width: 60px;
+    height: 66px;
+    background: url("../images/bgimg.png") no-repeat -1598px -204px;
+    opacity:0;
+    transition: opacity 0.5s;
+}
+.main .our-case-in ul li dd p{
+    display: block;
+    width: 100%;
+    height: 52px;
+    padding: 20px 20px 16px 20px;
+    color: #333;
+    font-size: 16px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+.main .our-case-in ul li dd a{
+    color: #DD4250;
+}
+.main .our-case-in ul li dd .con-l{
+    float: left;
+    font-size: 12px;
+    padding: 0 0 14px 20px;
+}
+.main .our-case-in ul li dd .con-r{
+    float: right;
+    color: #999;
+    font-size: 12px;
+    padding: 0 20px 14px 0;
+}

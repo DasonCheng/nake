@@ -1,0 +1,315 @@
+﻿@charset "utf-8";
+/********************************************css_reset************************************************/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote,
+dl, dt, dd, ul, ol, li,
+pre,
+fieldset, lengend, button, input, textarea,
+th, td {
+    margin: 0;
+    padding: 0;
+}
+body{
+    cursor: default;
+}
+body,
+button, input, select, textarea {
+    font: 12px/1 "microsoft yahei", arial, tahoma, "\5b8b\4f53", sans-serif;;
+}
+h1 { font-size: 18px;  }
+h2 { font-size: 16px; }
+h3 { font-size: 14px; }
+h4, h5, h6 { font-size: 100%; }
+
+address, cite, dfn, em, var { font-style: normal; }
+code, kbd, pre, samp, tt { font-family: "Courier New", Courier, monospace; }
+small { font-size: 12px; }
+ul, ol { list-style: none; }
+a { text-decoration: none; color:#888888;}
+a:hover { text-decoration: none; }
+
+abbr[title], acronym[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+q:before, q:after { content: ''; }
+legend { color: #000; }
+fieldset, img { border: none; }
+button, input, select, textarea {
+    font-size: 100%;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+hr {
+    border: none;
+    height: 1px;
+}
+
+/********************************************clearfix************************************************/
+.clearfix::after,.clearfix::before{
+    content: '';
+    display: block;
+}
+.clearfix::after{
+    clear: both;
+}
+.clearfix{
+    zoom: 1;
+}
+/********************************************base_css************************************************/
+.heaher-out{
+    width: 100%;
+    height: 90px;
+}
+.heaher{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    box-shadow: 0 1px 0 0 rgba(0,0,0,0.05);
+    background: #FFF;
+    z-index: 1000;
+}
+/*媒体查询自适应*/
+@media screen and (max-width: 1000px){
+    .areaheart{
+        width: 1000px;
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width: 1001px) and (max-width: 1200px){
+    .areaheart{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width: 1201px){
+    .areaheart{
+        width: 1200px;
+        margin: 0 auto;
+    }
+}
+.heaher-in-l{
+    float: left;
+    padding: 10px 0;
+}
+.heaher-in-l h1 a{
+    display: block;
+    width: 210px;
+    height: 70px;
+    text-indent: -999px;
+    overflow: hidden;
+    background: url("../images/bgimg.png") no-repeat -1804px -200px;
+}
+.heaher-in-r{
+    float: right;
+    width: 468px;
+    padding: 10px 0;
+}
+.heaher-in-r .h-i-r-nav{
+    float: left;
+    padding-right: 26px;
+}
+.heaher-in-r .h-i-r-nav li{
+    float: left;
+    padding: 27px 8px;
+}
+.heaher-in-r .h-i-r-nav li a{
+    display: block;
+    height: 16px;
+    line-height: 16px;
+    font-size: 16px;
+    font-family: Microsoft Yahei;
+}
+.heaher-in-r .h-i-r-nav .current a{
+    font-weight: bold;
+    color: #DD4250;
+}
+.heaher-in-r .h-i-r-nav li em{
+    display: block;
+    height: 16px;
+    line-height: 16px;
+    font-style: italic;
+    color: #BBBBBB;
+    font-size: 12px;
+}
+.heaher-in-r .h-i-r-nav li a:hover{
+    color: #DD4250;
+}
+.heaher-in-r .h-i-r-icon{
+    float: left;
+}
+.heaher-in-r .h-i-r-icon li{
+    position: relative;
+    float: left;
+    padding: 14px 8px;
+}
+.heaher-in-r .h-i-r-icon li a{
+    display: block;
+    width: 42px;
+    height: 42px;
+    border-radius: 100%;
+    text-indent: 999px;
+    overflow: hidden;
+    box-shadow: 0 0 0 1px rgba(221,66,80,1);
+    transition: box-shadow 0.3s, background-color 0.3s;
+}
+.heaher-in-r .h-i-r-icon li:last-child  a{
+    box-shadow: 0 0 0 1px rgba(136,136,136,1);
+}
+.heaher-in-r .h-i-r-icon li a:hover{
+    box-shadow: 0 0 0 3px rgba(221,66,80,0.3);
+    background-color:rgba(221,66,80,1);
+}
+.heaher-in-r .h-i-r-icon li a::after{
+    content: '';
+    display: block;
+    position: absolute;
+    left: 18px;
+    top: 24px;
+    width: 22px;
+    height: 22px;
+    background: url("../images/bgimg.png") no-repeat;
+    transition: background-position 0.3s;
+}
+.heaher-in-r .h-i-r-icon li:first-child a::after{
+    background-position: -3385px -50px;
+}
+.heaher-in-r .h-i-r-icon li:first-child a:hover::after{
+    background-position: -3385px -90px;
+}
+.heaher-in-r .h-i-r-icon li:last-child a::after{
+
+    background-position: -3385px -130px;
+}
+.heaher-in-r .h-i-r-icon li:last-child a:hover::after{
+
+    background-position: -3385px -170px;
+}
+
+.footer{
+    width: 100%;
+    background: url("../images/bs-docs-masthead-pattern.png") repeat-x #EFEFEF;
+}
+.footer-in{
+    position: relative;
+    padding: 20px 0;
+    font-size: 12px;
+    color: #666;
+}
+.footer-in .footer-c-txt::after{
+    content: '';
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -29px;
+    margin-top: -29px;
+    width: 58px;
+    height: 58px;
+    background: url("../images/bgimg.png") no-repeat -1407px -212px;
+}
+.footer-in .footer-c-txt{
+    float: left;
+    width: 490px;
+    height: 36px;
+    line-height: 18px;
+}
+.footer-in .footer-c-txt em{
+    color: #999;
+}
+.footer-in .footer-c-way{
+    float: right;
+    padding: 6px 0;
+}
+.footer-in .footer-c-way dl{
+    float: left;
+    height: 22px;
+    padding: 0 10px;
+    line-height: 22px;
+}
+.footer-in .footer-c-way dl dt{
+    float: left;
+    height: 22px;
+    width: 22px;
+    background: url("../images/bgimg.png") no-repeat;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+.footer-in .footer-c-way dl:nth-child(1) dt{
+    background-position: -3385px -347px;
+}
+.footer-in .footer-c-way dl:nth-child(2) dt{
+    background-position: -3385px -391px;
+}
+.footer-in .footer-c-way dl dd{
+    float: left;
+    height: 22px;
+    padding-left: 5px;
+}
+
+/*公用样式-服务+关于-分类三段式*/
+
+
+.main .tit-zh{
+    padding-top: 50px;
+    font-size: 40px;
+    font-weight: lighter;
+}
+.main .tit-en{
+    display: block;
+    padding-top: 10px;
+    font-size: 23px;
+    font-weight: lighter;
+}
+.main .tit-con{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 30px;
+}
+
+/*公用样式-服务-服务分类*/
+
+.main .content{
+    position: absolute;
+    width: 40%;
+    height: 100%;
+}
+.main .content h3{
+    padding-top: 70px;
+    font-size: 36px;
+    font-weight: lighter;
+}
+.main .content span{
+    display: block;
+    padding-top: 16px;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.main .content p{
+    padding: 30px 0 60px;
+    font-size: 14px;
+    line-height: 26px;
+    color: #666;
+}
+.main .content a{
+    display: block;
+    width: 180px;
+    height: 40px;
+    border-radius: 130px;
+    background: rgba(221,66,80,0.8);
+    transition: box-shadow 0.3s;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.main .content a:hover{
+    box-shadow: 0 0 0 3px rgba(221,66,80,0.3);
+}
+

@@ -1,0 +1,196 @@
+@charset "utf-8";
+/********************************************our-server************************************************/
+.s-our-server{
+    width: 100%;
+    border-top: 1px solid #DDD;
+    border-bottom: 1px solid #DDD;
+    background: url("../images/parallax-bg.png") no-repeat center center fixed;
+    background-size: cover;
+}
+.s-our-server-in{
+    height: 600px;
+    text-align: center;
+    color: #FFF;
+ }
+.s-our-server-in ul{
+    width: 100%;
+    height: 350px;
+}
+.s-our-server-in ul li{
+    float: left;
+    width: 33.33%;
+    height: 350px;
+}
+.s-our-server-in ul li dl{
+    position: relative;
+    display: block;
+    width: 86%;
+    height: 350px;
+    margin: 0 auto;
+    background: rgba(221,66,80,0.87);
+}
+.s-our-server-in ul li dl dt{
+    width: 100%;
+    height: 110px;
+}
+.s-our-server-in ul li dl dt:after{
+    position: absolute;
+    left: 50%;
+    top: 6%;
+    margin-left: -40px;
+    content: '';
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: url("../images/bgimg.png") no-repeat;
+}
+.s-our-server-in ul li:nth-child(1) dl dt:after{
+    background-position: -3591px -327px;
+}
+.s-our-server-in ul li:nth-child(2) dl dt:after{
+    background-position: -3591px -428px;
+}
+.s-our-server-in ul li:nth-child(3) dl dt:after{
+    background-position: -3591px -528px;
+}
+.s-our-server-in ul li dl dd h3{
+    font-size: 28px;
+    font-weight: normal;
+}
+.s-our-server-in ul li dl dd p{
+    padding: 6px 0 36px;
+    font-size: 12px;
+}
+.s-our-server-in ul li dl dd span{
+    display: block;
+    padding: 0 30px;
+    line-height: 26px;
+    font-size: 16px;
+}
+.s-our-server-in ul li dl dd span em{
+    display: inline-block;
+}
+/********************************************server-webui************************************************/
+.s-server-webui{
+    width: 100%;
+    background: #FFF;
+    border-bottom: 1px solid #DDD;
+}
+.s-server-webui-in{
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+    text-align: left;
+}
+.s-server-webui-in .content{
+    left: 0;
+    top: 0;
+}
+.s-server-webui-in .content a{
+    float: left;
+}
+.s-server-webui-in img{
+    float: right;
+}
+/********************************************server-app************************************************/
+.s-server-app{
+    width: 100%;
+    background: #F8F8F8;
+    border-bottom: 1px solid #DDD;
+}
+.s-server-app-in{
+    position: relative;
+    height: 500px;
+    text-align: right;
+}
+
+.s-server-app-in .content{
+    right: 0;
+    top: 0;
+}
+.s-server-app-in .content a{
+    float: right;
+}
+.s-server-app-in img{
+    float: left;
+}
+/********************************************server-game************************************************/
+.s-server-game{
+    width: 100%;
+    background: #FFF;
+    border-bottom: 1px solid #DDD;
+}
+.s-server-game-in{
+    position: relative;
+    height: 500px;
+}
+
+.s-server-game-in .content{
+    left: 0;
+    top: 0;
+}
+.s-server-game-in .content a{
+    float: left;
+}
+.s-server-game-in img{
+    float: right;
+}
+/********************************************server-code************************************************/
+.s-server-code{
+    width: 100%;
+    background: #F8F8F8;
+    border-bottom: 1px solid #DDD;
+}
+.s-server-code-in{
+    position: relative;
+    height: 500px;
+}
+.s-server-code-in .content{
+    right: 0;
+    top: 0;
+}
+.s-server-code-in .content a{
+    float: right;
+}
+.s-server-code-in img{
+    float: left;
+}
+/********************************************server-seo************************************************/
+.s-server-seo{
+    width: 100%;
+    background: #FFF;
+    border-bottom: 1px solid #DDD;
+}
+.s-server-seo-in{
+    position: relative;
+    height: 500px;
+}
+.s-server-seo-in .content{
+    left: 0;
+    top: 0;
+}
+.s-server-seo-in .content a{
+    float: left;
+}
+.s-server-seo img{
+    float: right;
+}
+/********************************************server-process************************************************/
+.s-server-process{
+    width: 100%;
+    background: #DD4250;
+    border-bottom: 1px solid #DDD;
+}
+.s-server-process-in{
+    height: 600px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.s-server-process-in>div{
+    width: 930px;
+    height: 225px;
+    margin: 70px auto 0;
+    background: url("../images/bgimg.png") no-repeat -65px -157px;
+    text-indent: -999px;
+    overflow: hidden;
+}

@@ -1,0 +1,170 @@
+@charset "utf-8";
+.Contact-Us{
+    width: 100%;
+    background: url("../images/cont-bg.jpg") no-repeat center center;
+    background-size: cover;
+    border-bottom: 1px solid #DDD;
+}
+.Contact-Us-in{
+    height: 600px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.Contact-Us-in ul{
+    width: 100%;
+    height: 76px;
+}
+.Contact-Us-in ul li{
+    float: left;
+    width: 25%;
+    height: 76px;
+}
+.Contact-Us-in ul li dl{
+    width: 95%;
+    height: 76px;
+    margin: 0 auto;
+}
+.Contact-Us-in ul li dl dt{
+    float: left;
+    width: 35%;
+    height: 76px;
+}
+.Contact-Us-in ul li dl dt a{
+    display: block;
+    width: 76px;
+    height: 76px;
+    margin: 0 auto;
+    background: url("../images/bgimg.png") no-repeat;
+    text-indent: -999px;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px rgba(255,255,255,1);
+    transition: background-position 0.3s,
+                background-color 0.3s,
+                box-shadow 0.3s;
+}
+.Contact-Us-in ul li dl dt a:hover{
+    background-color: #FFF;
+    box-shadow: 0 0 0 2px rgba(221,66,80,0.5);
+}
+.Contact-Us-in ul li:nth-child(1) dl dt a{
+    background-position: -3241px -17px;
+}
+.Contact-Us-in ul li:nth-child(1) dl dt a:hover{
+    background-position: -3152px -17px;
+    background-color: #DD4250;
+    box-shadow: 0 0 0 2px rgba(255,255,255,0.5);
+}
+.Contact-Us-in ul li:nth-child(2) dl dt a{
+    background-position: -3152px -106px;
+}
+.Contact-Us-in ul li:nth-child(2) dl dt a:hover{
+    background-position: -3241px -106px;
+}
+.Contact-Us-in ul li:nth-child(3) dl dt a{
+    background-position: -3152px -197px;
+}
+.Contact-Us-in ul li:nth-child(3) dl dt a:hover{
+    background-position: -3241px -197px;
+}
+.Contact-Us-in ul li:nth-child(4) dl dt a{
+    background-position: -3152px -285px;
+}
+.Contact-Us-in ul li:nth-child(4) dl dt a:hover{
+    background-position: -3241px -285px;
+}
+.Contact-Us-in ul li dl dd{
+    float: left;
+    width: 65%;
+    text-align: left;
+}
+.Contact-Us-in ul li dl dd span{
+    display: block;
+    padding-top: 20px;
+    font-size: 12px;
+}
+.Contact-Us-in ul li dl dd p{
+    padding-top: 10px;
+    font-size: 18px;
+}
+.ProjectOnLine{
+    width: 100%;
+    background-color: #F8F8F8;
+    border-bottom: 1px solid #DDD;
+}
+.ProjectOnLine-in{
+    height: 660px;
+    text-align: center;
+}
+.ProjectOnLine-in .tit-en,
+.ProjectOnLine-in .tit-con{
+    color: #666;
+}
+.ProjectOnLine-in ul{
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+}
+.ProjectOnLine-in ul li{
+    float: left;
+    width: 50%;
+    padding-bottom: 28px;
+}
+.ProjectOnLine-in ul li label{
+    display: block;
+    padding-bottom: 6px;
+    font-size: 12px;
+    color: #666;
+}
+.ProjectOnLine-in ul li label em{
+    color: #dd4250;
+}
+.ProjectOnLine-in ul li input{
+    width: 91%;
+    height: 20px;
+    padding: 2%;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+    outline: none;
+    font-size: 14px;
+    line-height: 20px;
+}
+.ProjectOnLine-in ul li input:focus{
+    border: 1px solid rgba(221,66,80,0.8);
+    box-shadow: 0 0 3px 0 rgba(221,66,80,0.5);
+}
+.ProjectOnLine-in ul li textarea{
+    width: 191%;
+    height: 80px;
+    padding: 2%;
+    resize: none;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+    outline: none;
+    font-size: 14px;
+}
+.ProjectOnLine-in ul li textarea:focus{
+    border: 1px solid rgba(221,66,80,0.8);
+    box-shadow: 0 0 3px 0 rgba(221,66,80,0.5);
+}
+.ProjectOnLine-in>a{
+    display: block;
+    width: 190px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #DD4250;
+    color: #FFF;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 5px;
+}
+.ProjectOnLine-in>a:hover{
+    background-color: #DA3041;
+}
+.map-in{
+    width: 100%;
+    height: 350px;
+    background: url("../images/map_bg.png") no-repeat center center;
+    background-size: cover;
+    border-bottom: 1px solid #DDD;
+}
