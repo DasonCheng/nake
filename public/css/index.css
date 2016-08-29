@@ -68,15 +68,15 @@ body{
      box-shadow: 0 0 0 3px rgba(221,66,80,0.3);
  }
 .main .banner .banner-img-1{
-    background: url("../images/1.jpg") no-repeat center center;
+    background: url("../imgs/1.jpg") no-repeat center center;
     background-size: cover;
 }
 .main .banner .banner-img-2{
-    background: url("../images/2.jpg") no-repeat center center;
+    background: url("../imgs/2.jpg") no-repeat center center;
     background-size: cover;
 }
 .main .banner .banner-img-3{
-    background: url("../images/3.jpg") no-repeat center center;
+    background: url("../imgs/3.jpg") no-repeat center center;
     background-size: cover;
 }
 .main .banner ol{
@@ -143,7 +143,7 @@ body{
     top: 41px;
     width: 10px;
     height: 18px;
-    background: url("../images/bgimg.png") no-repeat -2128px -232px;
+    background: url("../imgs/bgimg.png") no-repeat -2128px -232px;
     transition: left 0.5s;
 }
 .main .our-server ul li a dl{
@@ -157,7 +157,7 @@ body{
     height: 80px;
     text-indent: -9999px;
     overflow: hidden;
-    background: url(../images/bgimg.png) no-repeat;
+    background: url(../imgs/bgimg.png) no-repeat;
 }
 .main .our-server ul li:nth-child(1) a dl dt{
     background-position: -3589px -29px;
@@ -275,7 +275,7 @@ body{
     margin-left: -30px;
     width: 60px;
     height: 66px;
-    background: url("../images/bgimg.png") no-repeat -1598px -204px;
+    background: url("../imgs/bgimg.png") no-repeat -1598px -204px;
     opacity:0;
     transition: opacity 0.5s;
 }
@@ -312,7 +312,7 @@ body{
     height: 120px;
     padding: 55px 0;
     border-bottom: 1px solid #DDD;
-    background: url("../images/cbg.jpg") no-repeat center center fixed;
+    background: url("../imgs/cbg.jpg") no-repeat center center fixed;
 }
 .main .contant-us-in .contant-words{
     float: left;
@@ -351,7 +351,7 @@ body{
     width: 104px;
     height: 120px;
     padding: 0 10px;
-    background: url("../images/bgimg.png") no-repeat -1577px -318px;
+    background: url("../imgs/bgimg.png") no-repeat -1577px -318px;
     text-align: center;
 }
 .main .contant-us-in ul li span{
@@ -458,7 +458,7 @@ body{
     width: 140px;
     height: 50px;
     margin: 0 auto;
-    background: url("../images/bgimg.png") no-repeat;
+    background: url("../imgs/bgimg.png") no-repeat;
     text-indent: -9999px;
     overflow: hidden;
 }

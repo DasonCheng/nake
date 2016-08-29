@@ -102,7 +102,7 @@ hr {
     height: 70px;
     text-indent: -999px;
     overflow: hidden;
-    background: url("../images/bgimg.png") no-repeat -1804px -200px;
+    background: url("../imgs/bgimg.png") no-repeat -1804px -200px;
 }
 .heaher-in-r{
     float: right;
@@ -172,7 +172,7 @@ hr {
     top: 24px;
     width: 22px;
     height: 22px;
-    background: url("../images/bgimg.png") no-repeat;
+    background: url("../imgs/bgimg.png") no-repeat;
     transition: background-position 0.3s;
 }
 .heaher-in-r .h-i-r-icon li:first-child a::after{
@@ -192,7 +192,7 @@ hr {
 
 .footer{
     width: 100%;
-    background: url("../images/bs-docs-masthead-pattern.png") repeat-x #EFEFEF;
+    background: url("../imgs/bs-docs-masthead-pattern.png") repeat-x #EFEFEF;
 }
 .footer-in{
     position: relative;
@@ -210,7 +210,7 @@ hr {
     margin-top: -29px;
     width: 58px;
     height: 58px;
-    background: url("../images/bgimg.png") no-repeat -1407px -212px;
+    background: url("../imgs/bgimg.png") no-repeat -1407px -212px;
 }
 .footer-in .footer-c-txt{
     float: left;
@@ -235,7 +235,7 @@ hr {
     float: left;
     height: 22px;
     width: 22px;
-    background: url("../images/bgimg.png") no-repeat;
+    background: url("../imgs/bgimg.png") no-repeat;
     text-indent: -9999px;
     overflow: hidden;
 }

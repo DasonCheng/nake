@@ -4,7 +4,7 @@
     width: 100%;
     border-top: 1px solid #DDD;
     border-bottom: 1px solid #DDD;
-    background: url("../images/parallax-bg.png") no-repeat center center fixed;
+    background: url("../imgs/parallax-bg.png") no-repeat center center fixed;
     background-size: cover;
 }
 .s-our-server-in{
@@ -42,7 +42,7 @@
     display: block;
     width: 80px;
     height: 80px;
-    background: url("../images/bgimg.png") no-repeat;
+    background: url("../imgs/bgimg.png") no-repeat;
 }
 .s-our-server-in ul li:nth-child(1) dl dt:after{
     background-position: -3591px -327px;
@@ -190,7 +190,7 @@
     width: 930px;
     height: 225px;
     margin: 70px auto 0;
-    background: url("../images/bgimg.png") no-repeat -65px -157px;
+    background: url("../imgs/bgimg.png") no-repeat -65px -157px;
     text-indent: -999px;
     overflow: hidden;
 }

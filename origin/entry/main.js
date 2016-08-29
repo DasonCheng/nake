@@ -1,0 +1,12 @@
+import '../sass/font.scss';
+import '../sass/header.scss';
+import '../sass/index.scss';
+import '../sass/test.less';
+import '../lib/bower_components/jquery.easing/js/jquery.easing.min';
+import '../js/semantic';
+import '../js/srSmoothscroll';
+import '../js/jparallax';
+import '../js/typeit';
+import '../js/scrolld';
+import '../js/shine';
+import '../js/bounce';

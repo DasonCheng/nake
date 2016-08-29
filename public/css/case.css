@@ -35,7 +35,7 @@
     float: left;
     width: 24px;
     height: 24px;
-    background: url("../images/bgimg.png") no-repeat;
+    background: url("../imgs/bgimg.png") no-repeat;
 }
 .case-classify-in ul li:nth-child(1) span{
     background-position: -2235px -229px;
@@ -116,7 +116,7 @@
     margin-left: -30px;
     width: 60px;
     height: 66px;
-    background: url("../images/bgimg.png") no-repeat -1598px -204px;
+    background: url("../imgs/bgimg.png") no-repeat -1598px -204px;
     opacity:0;
     transition: opacity 0.5s;
 }

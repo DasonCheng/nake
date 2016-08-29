@@ -1,0 +1,4 @@
+node_modules
+public/build
+origin/lib/bower_components
+*.html
